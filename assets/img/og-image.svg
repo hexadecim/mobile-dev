@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0e2a24"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#21b788"/>
+      <stop offset="100%" stop-color="#2e6bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="88" height="88" rx="20" fill="url(#mark)"/>
+  <path d="M104 148 L124 108 L138 132 L152 108 L172 148" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Aganya Solutions</text>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="34" fill="#9fb0c9">Aganya ProfitTrack</text>
+  <text x="80" y="390" font-family="Arial, sans-serif" font-size="28" fill="#c6cee0">Project profitability management for software &amp; IT services companies</text>
+  <rect x="80" y="460" width="360" height="64" rx="12" fill="#12946f"/>
+  <text x="110" y="500" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">See your true project margins</text>
+</svg>
