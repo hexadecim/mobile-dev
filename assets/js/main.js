@@ -1,9 +1,31 @@
 (function () {
-  var toggle = document.querySelector('.nav-toggle');
-  if (toggle) {
-    toggle.addEventListener('click', function () {
+  var navToggle = document.querySelector('.nav-toggle');
+  if (navToggle) {
+    navToggle.addEventListener('click', function () {
       var isOpen = document.body.classList.toggle('nav-open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
+
+  var dropdown = document.querySelector('.nav-dropdown');
+  if (dropdown) {
+    var dropdownToggle = dropdown.querySelector('.nav-dropdown-toggle');
+    dropdownToggle.addEventListener('click', function (event) {
+      event.stopPropagation();
+      var isOpen = dropdown.classList.toggle('open');
+      dropdownToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    document.addEventListener('click', function (event) {
+      if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('open');
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        dropdown.classList.remove('open');
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 

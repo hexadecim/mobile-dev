@@ -7,19 +7,18 @@ Static HTML/CSS/JS, no build step or framework required.
 ## Structure
 
 ```
-index.html                 Home
-features.html               Product features
-for-it-services.html        Industry landing page (IT services / software dev)
-pricing.html                 Pricing tiers + FAQ
-about.html                   Company page
-contact.html                 Contact / demo request form
-blog/                        Blog index + articles
-404.html                     Custom not-found page
-assets/css/style.css         Design system (light/dark aware, responsive)
-assets/js/main.js            Mobile nav, FAQ, form handling
-assets/img/                  Favicon, OG image (SVG + generated PNG)
-sitemap.xml, robots.txt, site.webmanifest   SEO/PWA metadata
+index.html                                    Home
+products/profitability-management.html        Products > Profitability Management
+about.html                                     Company page
+contact.html                                   Contact / demo request form
+404.html                                       Custom not-found page
+assets/css/style.css                           Design system (light/dark aware, responsive)
+assets/js/main.js                              Mobile nav, Products dropdown, FAQ, form handling
+assets/img/                                    Favicon, OG image (SVG + generated PNG)
+sitemap.xml, robots.txt, site.webmanifest      SEO/PWA metadata
 ```
+
+Nav is Home, Products (dropdown) > Profitability Management, About Us, Contact Us.
 
 ## Run locally
 

@@ -20,7 +20,7 @@ Deploys to Cloudflare Pages (`wrangler.toml`, project name `aganya-solutions`, o
 
 ## Architecture
 
-Each top-level `.html` file (`index.html`, `features.html`, `for-it-services.html`, `pricing.html`, `about.html`, `contact.html`, `404.html`, `blog/*.html`) is a fully self-contained page: head metadata, JSON-LD, and body markup are duplicated per page rather than templated, since there is no build system to share partials. When editing shared elements (header/nav, footer, meta tag patterns), changes must be applied by hand across every HTML file individually.
+Each `.html` file (`index.html`, `products/profitability-management.html`, `about.html`, `contact.html`, `404.html`) is a fully self-contained page: head metadata, JSON-LD, and body markup are duplicated per page rather than templated, since there is no build system to share partials. When editing shared elements (header/nav, footer, meta tag patterns), changes must be applied by hand across every HTML file individually. Nav is Home, Products (dropdown, `.nav-dropdown` in `assets/css/style.css` + `assets/js/main.js`) > Profitability Management, About Us, Contact Us.
 
 - `assets/css/style.css` — single global design system: CSS custom properties for color/spacing tokens defined on `:root`, with a `@media (prefers-color-scheme: dark)` override block redefining the same tokens for dark mode. No CSS framework; all component styles (nav, cards, pricing tables, FAQ, forms) live in this one file.
 - `assets/js/main.js` — single small vanilla-JS file (IIFE) handling: mobile nav toggle (`.nav-toggle` → `nav-open` class on `body`), the contact form's client-side-only submit handling (`#contact-form` / `#form-status`, no real backend), and the footer year.

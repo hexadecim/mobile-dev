@@ -6,17 +6,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.aganyasolutions.com/features.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aganyasolutions.com/for-it-services.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.aganyasolutions.com/pricing.html</loc>
+    <loc>https://www.aganyasolutions.com/products/profitability-management.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -27,23 +17,6 @@
   </url>
   <url>
     <loc>https://www.aganyasolutions.com/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aganyasolutions.com/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.aganyasolutions.com/blog/project-profitability-kpis-for-software-companies.html</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.aganyasolutions.com/blog/hidden-margin-leakage-it-services.html</loc>
-    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
